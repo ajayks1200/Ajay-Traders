@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+h1{
+   font-family:"Bungee";
+   font-weight: 1000;
+   color:#08070;
+   animation: fade 2s; 
+}
+@keyframes fade{
+   from{opacity:0;}
+   to{opacity:100;}
+}
+
+p{
+   font-family:"pacifico";
+   font-weight: 200;
+   color:#40916c;
+   padding: top 70px;
+   animation:fade 3s;
+}
+.container{
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #2d6a4f;
+    border-radius: 10px;
+    background-color: #e9f5f2;
+    text-align: center;
+}
